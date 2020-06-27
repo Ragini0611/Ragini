@@ -1,0 +1,4 @@
+h = float(input("enter the height"))
+b = float(input("enter the base"))
+area = h*b/2
+print("are of circle",area)
