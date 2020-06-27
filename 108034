@@ -1,0 +1,9 @@
+a = int(input('enter the first number'))
+b = int(input('enter the second number'))
+c = int(input('enter the third number'))
+if a == b and b == c and c == a:
+	print(' all are equal')
+elif a == b or b == c or c == a:
+	print(' any two are equal')
+else:
+	print('none are equal')
