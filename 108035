@@ -1,0 +1,9 @@
+a = int(input('enter the number'))
+b = int(input('enter the number'))
+c = a+b
+if c > 5:
+	print('sum greater than 5')
+elif c == 5:
+	print('sum is equal 5')
+else:
+	print('sum is less than 5')
