@@ -1,0 +1,6 @@
+s = int(input('enter the number'))
+r = int(input('enter the number'))
+if s == r:
+    	print('they are equal')
+else:
+    	print('they are not equal')
