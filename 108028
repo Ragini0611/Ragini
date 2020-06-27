@@ -1,0 +1,4 @@
+r = float(input("enter the number"))
+pi = 3.14
+circum = 2*pi*r
+print("circumference of circle",circum)
