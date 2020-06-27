@@ -1,0 +1,5 @@
+from math import tan,pi
+s = int(input('enter number of sides:'))
+l = float(input('enter the lenght of a side:'))
+area = s* (l ** 2)/(4 * tan(pi/s))
+print ('area of polygon is :',area)
